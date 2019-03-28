@@ -31,6 +31,7 @@ h6 {
 strong {
 	font-weight: bold;
 }
+
 /* Text Alignment */
 .text-right {
 	text-align: right;
@@ -70,7 +71,7 @@ strong {
 
 /* Main Heading */
 .main_Heading {
-	padding: 8px 0px 12px 0px;
+	padding: 8px 0px 15px 0px;
 	color: #CD1E09;
 	font-family: 'Libre Baskerville', serif;
 }
@@ -101,15 +102,26 @@ section.bootstrap_carousel {
     max-width: 100%; */
 }
 
+.d-block {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
 /* Image Gallery */
 .Image-Gallery {
 	margin: 0 auto;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0px 15px 0px;
 }
+
 .Image-Gallery img {
 	max-width: 65%;
 	padding: 5px 5px 5px 5px;
 }
+
+.col-sm-4 {
+	
+}
+
 
 .sect-title {
 	max-width: 90%;
