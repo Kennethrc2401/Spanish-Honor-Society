@@ -114,8 +114,9 @@ section.bootstrap_carousel {
 }
 
 .Image-Gallery img {
-	max-width: 65%;
+	max-width: 80%;
 	padding: 5px 5px 5px 5px;
+	border-radius: 9px;
 }
 
 .col-sm-4 {
@@ -144,7 +145,10 @@ footer {
 	padding-left: 5px;
 }
 
+.main-footer {
+	max-height: 15px;
 
+}
 
 /* Media Queries */
 /* Smaller than standard 960 (devices and browsers) */
