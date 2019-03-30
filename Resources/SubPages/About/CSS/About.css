@@ -99,6 +99,10 @@ section.mission {
 	padding: 5px;
 }
 
+.extra-padding {
+	padding: 30px;
+}
+
 
 /* Footer Section */
 footer {
@@ -122,7 +126,13 @@ footer {
 @media only screen and (max-width: 767px) {}
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.extra-padding {
+	padding: 70px;
+}
+
+	
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
