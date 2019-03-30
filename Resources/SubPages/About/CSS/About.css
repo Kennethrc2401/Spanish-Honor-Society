@@ -79,6 +79,25 @@ strong {
 	font-size: 3em;
 }
 
+/* Mission */
+section.mission {
+	width: 90%;
+	max-width: 95%;
+	max-height: 90px;
+}
+
+.mission {
+	padding: 25px 0px 30px 0px;
+	margin: 0 auto;
+}
+
+.mission p {
+	font-size: 1.5em;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px;
+}
 
 
 /* Footer Section */
@@ -86,7 +105,8 @@ footer {
 	font-size: 1em;
 	background-color: black;
 	color: silver;
-	padding-left: 5px;
+	padding: 0px 5px 0px 5px;
+	margin: 0 auto;
 }
 
 
