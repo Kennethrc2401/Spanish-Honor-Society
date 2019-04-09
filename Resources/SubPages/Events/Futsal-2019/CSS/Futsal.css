@@ -1,0 +1,74 @@
+/* General Styles */
+html, body {
+	font-size: 16px;
+	background-color: #FFB6C1; /* HotPink = #FF69B4 & LightPink = #FFB6C1 */
+}
+
+
+/* Text Alignment */
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+/* NAVBAR Styles */
+.navbar-custom {
+    background-color: #FF69B4 !important; /* HotPink = #FF69B4 & LightPink = #FFB6C1 */
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #000000;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #000000;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000000;
+}
+
+.navbar-form button {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
+
+/* Footer Section */
+footer {
+	font-size: 1em;
+	background-color: black;
+	color: silver;
+	padding-left: 5px;
+}
+
+.main-footer {
+	max-height: 15px;
+
+}
+
+/* Media Queries */
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
