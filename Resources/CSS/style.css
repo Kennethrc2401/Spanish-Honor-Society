@@ -108,10 +108,11 @@ section.mission {
 	width: 90%;
 	max-width: 95%;
 	max-height: 90px;
+	padding: 10px!important;
 }
 
 .mission {
-	padding: 25px 0px 20px 0px;
+	padding: 25px 0px 20px 0px!important;
 	margin: 0 auto;
 }
 
