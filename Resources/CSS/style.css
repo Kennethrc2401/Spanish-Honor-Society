@@ -31,6 +31,7 @@ h6 {
 strong {
 	font-weight: bold;
 }
+
 /* Text Alignment */
 .text-right {
 	text-align: right;
@@ -82,7 +83,7 @@ strong {
 /* Bootstrap Carousel Section */
 section.bootstrap_carousel {
 	width: 50%;
-	height: auto;
+	max-height: 500px!important;
 	margin: 0 auto;
 	padding: 10px 0px 5px 0px;
 }
@@ -90,6 +91,7 @@ section.bootstrap_carousel {
 .carousel-inner{
   /*width: 100% !important;
   max-height: 500px !important;*/
+	border-radius: 1%;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -115,9 +117,10 @@ section.mission {
 
 .mission p {
 	font-size: 1.5em;
-	border-color: #000000;
-	border-style: solid;
+	border-color: #CD1E09;
+	border-style: dotted;
 	border-width: 2px;
+	border-radius: 3px;
 	padding: 5px;
 }
 
@@ -128,7 +131,7 @@ section.mission {
 
 
 /* Latest News */
-.latest_news {
+.latest_news-table {
 	padding: 40px 0px 10px 0px;
 	margin: 0 auto;
 }
@@ -136,7 +139,7 @@ section.mission {
 /* Table */
 div.table-title {
   display: block;
-  margin: auto;
+  margin: 0 auto;
   max-width: 600px;
   padding: 5px;
   width: 100%;

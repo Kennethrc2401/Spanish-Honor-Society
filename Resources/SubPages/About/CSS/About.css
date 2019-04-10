@@ -68,6 +68,16 @@ strong {
 	color: #ffffff;
 }
 
+/* SHS Logo */
+.heading-logo {
+	
+}
+
+/* School Heading */
+.school-name-heading {
+	font-weight: bold;
+}
+
 /* Main Heading */
 .main_Heading {
 	padding: 8px 0px 12px 0px;
