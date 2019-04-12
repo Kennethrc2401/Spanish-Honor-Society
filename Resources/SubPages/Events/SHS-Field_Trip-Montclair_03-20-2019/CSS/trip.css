@@ -80,33 +80,6 @@ strong {
 	font-size: 3em;
 }
 
-/* Bootstrap Carousel Section */
-section.bootstrap_carousel {
-	width: 50%;
-	height: auto;
-	margin: 0 auto;
-	padding: 10px 0px 5px 0px;
-}
-
-.carousel-inner{
-  /*width: 100% !important;
-  max-height: 500px !important;*/
-}
-
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    /*display: block;
-    height: auto;
-    line-height: 1;
-    margin: 0 auto;
-	width: 90% !important;
-    max-width: 100%; */
-}
-
-.d-block {
-	max-width: 100%;
-	margin: 0 auto;
-}
-
 /* Image Gallery */
 .Image-Gallery {
 	margin: 0 auto;
