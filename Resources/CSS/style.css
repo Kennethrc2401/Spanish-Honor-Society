@@ -112,6 +112,10 @@ section.mission {
 	margin: 0 auto;
 }
 
+section.latest_news-table h3:hover {
+	color: #CD1E09;
+}
+
 /* Table */
 div.table-title {
   display: block;
@@ -132,7 +136,6 @@ div.table-title {
 }
 
 /*** Table Styles **/
-
 .table-fill {
   background: white;
   border-radius: 3px;
