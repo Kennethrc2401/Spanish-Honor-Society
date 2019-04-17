@@ -68,6 +68,11 @@ strong {
 	color: #ffffff;
 }
 
+.navbar-form button:hover {
+	background-color: #000000;
+	color: #CD1E09;
+}
+
 /* SHS Logo */
 .heading-logo {
 	

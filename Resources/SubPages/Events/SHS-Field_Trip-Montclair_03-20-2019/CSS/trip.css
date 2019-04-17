@@ -69,6 +69,11 @@ strong {
 	color: #ffffff;
 }
 
+.navbar-form button:hover {
+	background-color: #000000;
+	color: #CD1E09;
+}
+
 /* Main Heading */
 .main_Heading {
 	padding: 8px 0px 15px 0px;
