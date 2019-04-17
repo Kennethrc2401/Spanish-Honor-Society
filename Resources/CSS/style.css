@@ -112,7 +112,7 @@ section.mission {
 	margin: 0 auto;
 }
 
-section.latest_news-table h3:hover {
+.latest_news-heading:hover {
 	color: #CD1E09;
 }
 
